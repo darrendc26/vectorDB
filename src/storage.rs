@@ -1,6 +1,5 @@
-use bincode::{Decode, Encode};
-
-#[derive(Encode, Decode, Debug)]
+use serde::{Deserialize, Serialize};
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct VectorDBstore {
     pub id: i32,
     pub text: String,
