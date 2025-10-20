@@ -1,4 +1,4 @@
-use fastembed::{EmbeddingModel, InitOptions, TextEmbedding};
+use fastembed::TextEmbedding;
 
 // With default InitOptions
 
