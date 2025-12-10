@@ -2,7 +2,7 @@
 
 **vectorDB** — an implementation of a vector database written entirely in Rust.  
 
-## 📄 What is this  
+## What is this  
 
 vectorDB is a simple, lightweight vector-database implementation in Rust. It allows storage and retrieval of vector data, which can be used for tasks such as nearest-neighbour search, similarity search, and other vector-based queries.  
 
@@ -35,3 +35,5 @@ cd vectorDB
 cargo build --release
 ```
 Next we can use the vectorDB via api running on localhost:3000 
+Use /insert to add documents into vectorDB
+and /query to search documents for most closely related data.
