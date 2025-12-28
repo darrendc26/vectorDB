@@ -34,7 +34,7 @@ cd vectorDB
 # Build the project  
 cargo build --release
 ```
-Next we can use the vectorDB via api running on localhost:3000 
-Send a POST request to /insert to add data to vectorDB
+Next we can use the vectorDB via api running on localhost:3000. \n
+Send a POST request to /insert to add data to vectorDB.
 Then send a POST request to /query to query data and get most closely related data.
-Note: Both request need a JSON with param "text"
+Note: Both request need a JSON with param "text".
