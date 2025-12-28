@@ -38,7 +38,7 @@ Next we can use the vectorDB via api running on localhost:3000.
 
 POST /insert
 ```json
-**Request Body**
+Request Body
 
 {
   "text": "your text to be embedded and stored"
@@ -47,7 +47,7 @@ POST /insert
 
 POST /query
 ```json
-**Request Body**
+Request Body
 
 {
   "text": "your query text"
